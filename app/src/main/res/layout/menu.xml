@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+    android:orientation="vertical"
+
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Menu"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/bt_menu_calculadora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#696969"
+                android:text="Calculadora"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/bt_menu_cadastro_autor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#696969"
+                android:text="Cadastro Autor"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/bt_menu_cadastro_livro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#696969"
+                android:text="Cadastro Livro"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/bt_menu_cadastro_editora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#696969"
+                android:text="Cadastro Editora"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/bt_catalogo_livro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#696969"
+                android:text="Catalogo de Livros"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/bt_menu_cadastrou_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#696969"
+                android:text="Cadatro Usuario"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
